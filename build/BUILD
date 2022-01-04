@@ -1,6 +1,6 @@
 # Minimum Empty file required here to as there is a .bzl in folder
 
-load("@build_sample_pip//:requirements.bzl", "requirement")
+load("@sample_pip//:requirements.bzl", "requirement")
 
 py_binary(
     name = "sample",
