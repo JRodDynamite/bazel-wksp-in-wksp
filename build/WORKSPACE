@@ -12,9 +12,5 @@ load("@rules_python//python:pip.bzl", "pip_install")
 
 pip_install(
     name = "sample_pip",
-    extra_pip_args = [
-        "--index-url",
-        "http://localhost:8181/repository/pypi/simple",
-    ],
     requirements = "@build//:requirements.txt",
 )
